@@ -1,0 +1,114 @@
+body {
+  background-color: #b1d7b0;
+  margin: 0;
+  padding: 5px;
+}
+.scoreContainer {
+  display: grid;
+  grid-template-columns: minmax(auto, 1200px);
+  justify-content: center;
+  background-color: black;
+  position: fixed;
+  text-align: right;
+  color: #b1d7b0;
+  border: 10px solid black;
+}
+.spaceContainer {
+  grid-template-columns: minmax(auto, 1200px);
+  background-color: black;
+  text-align: right;
+  color: #b1d7b0;
+  border: 45px solid #b1d7b0;
+}
+
+.fullContainer {
+  background-color: black;
+}
+.redContainer {
+  grid-template-columns: repeat(12, 1fr);
+  display: inline-grid;
+  grid-template-rows: 30px 30px;
+  justify-content: center;
+}
+.red {
+  background-color: red;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  column-width: 100px;
+  text-align: center;
+  box-shadow: inset 0.05px 0px 4px black;
+}
+.yellowContainer {
+  grid-template-columns: repeat(12, 1fr);
+  display: inline-grid;
+  grid-template-rows: 30px 30px;
+}
+.yellow {
+  background-color: yellow;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  column-width: 100px;
+  box-shadow: inset 0.05px 0px 4px black;
+}
+.greenContainer {
+  grid-template-columns: repeat(12, 1fr);
+  display: inline-grid;
+  grid-template-rows: 30px 30px;
+}
+.green {
+  background-color: green;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  column-width: 100px;
+  text-align: center;
+  box-shadow: inset 0.05px 0px 4px black;
+}
+.blueContainer {
+  grid-template-columns: repeat(12, 1fr);
+  display: inline-grid;
+  grid-template-rows: 30px 30px;
+}
+
+.blue {
+  background-color: blue;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+  border-radius: 4px;
+  column-width: 100px;
+  box-shadow: inset 0.05px 0px 4px black;
+}
+
+img.white1 {
+  position: relative;
+  height: 13px;
+  right: 40px;
+}
+img.white2 {
+  position: relative;
+  height: 13px;
+}
+img.white3 {
+  position: relative;
+  height: 13px;
+  right: 530px;
+  top: 40px;
+}
+
+.bottom1 {
+  grid-template-columns: minmax(auto, 900px);
+  background-color: black;
+  height: 300px;
+}
+.bottom2 {
+  grid-template-columns: minmax(auto, 1200px);
+  height: 10px;
+  color: orange;
+}
+.bottomLeft {
+  justify-items: left;
+  right: 50px;
+}
+.bottomMiddle {
+  width: 90px;
+
+  border: 10px solid #b1d7b0;
+}
